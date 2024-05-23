@@ -2231,8 +2231,11 @@ char *cmm_bg_string_table[] = {
     "Ice Mountains",
     "Desert Pyramids",
     "Underwater City",
-    "Pink Sky",
-    "None", // 9 - doesn't generate black chasm
+    "Pink Sky",   
+    "Sunset Plateau",
+    "Outer Space",
+    "None" // 11 - doesn't generate black chasm
+
 };
 
 #define CMM_BOUNDARY_INNER_FLOOR   (1 << 0) // Has the main floor
@@ -2276,6 +2279,10 @@ u8 *cmm_skybox_table[] = {
     _wdw_skybox_yay0SegmentRomEnd,
     _bits_skybox_yay0SegmentRomStart,
     _bits_skybox_yay0SegmentRomEnd,
+    _sunset_skybox_yay0SegmentRomStart,
+    _sunset_skybox_yay0SegmentRomEnd,
+    _space_skybox_yay0SegmentRomStart,
+    _space_skybox_yay0SegmentRomEnd,
     NULL,
     NULL,
 };

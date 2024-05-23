@@ -73,8 +73,10 @@ extern SkyboxTexture clouds_skybox_ptrlist;
 extern SkyboxTexture ssl_skybox_ptrlist;
 extern SkyboxTexture water_skybox_ptrlist;
 extern SkyboxTexture wdw_skybox_ptrlist;
+extern SkyboxTexture sunset_skybox_ptrlist;
+extern SkyboxTexture space_skybox_ptrlist;
 
-SkyboxTexture *sSkyboxTextures[10] = {
+SkyboxTexture *sSkyboxTextures[12] = {
     &water_skybox_ptrlist,
     &bitfs_skybox_ptrlist,
     &wdw_skybox_ptrlist,
@@ -85,6 +87,8 @@ SkyboxTexture *sSkyboxTextures[10] = {
     &bidw_skybox_ptrlist,
     &clouds_skybox_ptrlist,
     &bits_skybox_ptrlist,
+    &sunset_skybox_ptrlist,
+    &space_skybox_ptrlist,
 };
 
 /**

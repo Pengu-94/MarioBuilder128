@@ -470,6 +470,8 @@ SECTIONS
    YAY0_SEG(bbh_skybox,         0x0A000000)
    YAY0_SEG(bidw_skybox,        0x0A000000)
    YAY0_SEG(bits_skybox,        0x0A000000)
+   YAY0_SEG(sunset_skybox,        0x0A000000)
+   YAY0_SEG(space_skybox,        0x0A000000)
 
    // Texture bins
    YAY0_SEG(effect,   0x0B000000)

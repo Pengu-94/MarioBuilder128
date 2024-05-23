@@ -73,6 +73,8 @@ DECLARE_SEGMENT(ssl_skybox_yay0)
 DECLARE_SEGMENT(bbh_skybox_yay0)
 DECLARE_SEGMENT(bidw_skybox_yay0)
 DECLARE_SEGMENT(bits_skybox_yay0)
+DECLARE_SEGMENT(sunset_skybox_yay0)
+DECLARE_SEGMENT(space_skybox_yay0)
 
 DECLARE_SEGMENT(effect_yay0)
 DECLARE_SEGMENT(title_screen_bg_yay0)
